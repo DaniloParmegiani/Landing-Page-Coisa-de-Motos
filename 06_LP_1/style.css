@@ -1,0 +1,153 @@
+@font-face {
+    font-family: Evil-Empire;
+    src: url(./02_Assets/evil_empire/Evil\ Empire.otf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: none;
+}
+
+body {
+    font-size: 100%;
+    background : linear-gradient(90deg, rgb(37, 37, 37) 0%, rgb(0, 0, 0) 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 80px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.itens {
+    font-family: Evil-Empire;
+    color: white;
+}
+
+.cabecalho-menu-item-loja:hover {
+    border-bottom: 2px solid white;
+    box-shadow: 0px 1px 30px rgba(255, 255, 255, 0.3);
+}
+
+.cabecalho-menu-item-youtube:hover {
+    border-bottom: 2px solid white;
+    box-shadow: 0px 1px 30px rgba(255, 255, 255, 0.3);
+}
+
+.cabecalho-menu-item-instagram:hover {
+    border-bottom: 2px solid white;
+    box-shadow: 0px 1px 30px rgba(255, 255, 255, 0.3);
+}
+
+.cabecalho-menu-item-telegram:hover {
+    border-bottom: 2px solid white;
+    box-shadow: 0px 1px 30px rgba(255, 255, 255, 0.3);
+}
+
+.conteudo {
+    margin-top: 80px;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    left: 240px;
+}
+
+.texto-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-principal-escrito-torne-se {
+    font-family: Evil-Empire;
+    color: white;
+    font-size: 35px;
+    height: 40px;
+}
+
+.conteudo-principal-escrito-motonautas {
+    font-family: Evil-Empire;
+    color: #ff6333;
+    font-size: 80px;
+    height: 75px;
+}
+
+.conteudo-principal-escrito-agora {
+    font-family: Evil-Empire;
+    color: #ff6333;
+    font-size: 115px;
+    height: 105px;
+}
+
+.conteudo-principal-escrito-paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.conteudo-principal-escrito-botao {
+    height: 45px;
+    width: 150px;
+    border: 2px solid #1dbf4f;
+    border-radius: 80px;
+    color: #1dbf4f;
+    font-family: Evil-Empire;
+    font-size: 20px;
+    box-shadow: 0px 1px 10px rgba(205, 255, 176, 0.253);
+}
+
+.conteudo-principal-escrito-botao:hover {
+    box-shadow: 0px 1px 30px rgba(94, 255, 0, 0.507);
+    background-color: #1dbf4f;
+    color: white;
+    height: 49.5px;
+    width: 165px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.conteudo-principal-imagem {
+    height: 500px;
+}
+
+.capacete {
+    height: 720px;
+    position: relative;
+    left: 750px;
+    bottom: 550px;
+}
+
+.botao {
+    height: 45px;
+    width: 150px;
+}
+
+
+
